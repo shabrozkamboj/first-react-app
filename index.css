@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Inter , sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282D35;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo{
+  width: 40px;
+}
+.nav1{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #21222A;
+}
+
+.nav1 > h3{
+  color: #61DAFB;
+    margin-right: auto;
+    font-size: 22px;
+    font-weight: 600;
+}
+.nav1 > h4{
+  color: aliceblue;
+  margin-right: 0;
+  font-weight: 400;
+}
+
+main {
+  /* background-color: #282D35; */
+  color: aliceblue;
+  padding: 55px 25px;
+  max-width: 100%;
+  background-image: url(./components/bg_logo.png);
+  background-position: right 75%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin: 0;
+  letter-spacing: -0.05em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+}
+
+.list{
+  margin-top: 20px;
+  line-height: 25px;
+  padding-block: 10px;
+}
+
+.list > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
